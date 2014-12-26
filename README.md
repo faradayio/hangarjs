@@ -7,7 +7,7 @@ Use hangar factories from protractor
 Use npm
 
 ```bash
-npm install git+ssh://git@github.com:faradayio/hangarjs.git
+npm install hangarjs
 ```
 
 ##Usage
@@ -15,7 +15,7 @@ npm install git+ssh://git@github.com:faradayio/hangarjs.git
 Initialize hangar, passing it the URL where hangar can be reached, as well as the protractor object
 
 ```javascript
-var hangar = require('hangar');
+var hangar = require('hangarjs');
 
 var factory = new hangar('http://localhost/', protractor);
 ```
