@@ -1,0 +1,21 @@
+{
+  "name": "hangar",
+  "description": "Use hangar factories from protractor",
+  "version": "0.1.0",
+  "maintainers": [
+    {
+      "name": "Faraday",
+      "email": "hangarjs@faraday.io",
+      "web": "http://faraday.io"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "git@github.com:faradayio/hangarjs.git"
+    }
+  ],
+  "dependencies": {
+    "inflection": "~1.3.5"
+  }
+}
