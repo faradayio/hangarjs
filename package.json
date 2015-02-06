@@ -1,7 +1,7 @@
 {
   "name": "hangarjs",
   "description": "Use hangar factories from protractor",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "maintainers": [
     {
       "name": "Faraday",
