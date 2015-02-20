@@ -13,14 +13,14 @@ var hangarHeaders = {
   'Content-Type': 'application/json'
 };
 
-hangar.prototype.create = function(name, data) {
+hangar.prototype.create = function(name, data, extra) {
   var self = this;
   return this.protractor.promise.controlFlow().execute(function() {
     var deferred = self.protractor.promise.defer();
 
     var options = url.parse(self.url+inflection.pluralize(name));
 
-    var wrappedData = {};
+    var wrappedData = extra || {};
     wrappedData[name] = data;
     wrappedData = JSON.stringify(wrappedData);
 
