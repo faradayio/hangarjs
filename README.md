@@ -46,6 +46,15 @@ factory.attributesFor('user').then(function(attributes){
 });
 ```
 
+Create a record based in traits
+
+```javascript
+factory.create('user',
+  { email: 'somebody@gmail.com', password: 'hunter2'},
+  { traits: ["admin", "full"] }
+);
+```
+
 Empty the db when you're done testing
 
 ```
